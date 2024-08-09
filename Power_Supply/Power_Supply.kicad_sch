@@ -4878,7 +4878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EESTN5:TO-220"
+		(property "Footprint" "Modified_Footprints:TO-220-3_Vertical"
 			(at 176.53 168.58 0)
 			(effects
 				(font

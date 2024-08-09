@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "TO-220-3_Vertical"
 		(at -2.54 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -252,15 +252,15 @@
 		(remove_unused_layers no)
 		(uuid "ae97195c-63df-42c6-8ed3-15f6e0c98594")
 	)
-	(model "3dmacrolib/TO-220-3_Vertical.wrl"
+	(model "TO-220-1_V.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -6.5 7.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

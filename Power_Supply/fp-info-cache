@@ -1,4 +1,4 @@
-495998103414700
+497721260795607
 EESTN5
 128x64OLED
 
@@ -2022,3 +2022,10 @@ USB USB_B USB_Mini connector
 0
 9
 6
+Modified_Footprints
+TO-220-3_Vertical
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
