@@ -1,4 +1,4 @@
-499453045944647
+509680149602241
 EESTN5
 128x64OLED
 
@@ -1817,8 +1817,8 @@ PUSH_SWITCH_THT_90
 
 
 0
-0
-0
+4
+3
 MacroLib
 Pin_Header_2X6
 
@@ -2030,7 +2030,49 @@ USB USB_B USB_Mini connector
 9
 6
 Modified_Footprints
-TO-220-3_Vertical
+C-ELEC
+
+
+0
+2
+2
+Modified_Footprints
+C_ELEC_15x12
+
+
+0
+2
+2
+Modified_Footprints
+C_POL
+
+
+0
+2
+2
+Modified_Footprints
+JUMPER
+
+
+0
+2
+2
+Modified_Footprints
+RESO_2W
+
+
+0
+0
+0
+Modified_Footprints
+TO-126-3_90
+
+
+0
+3
+3
+Modified_Footprints
+TO-220-3_90
 TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Vertical RM 2.54mm
 0

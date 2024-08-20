@@ -1,4 +1,4 @@
-(footprint "TO-220-3_Vertical"
+(footprint "TO-220-3_90"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TO-220-3_Vertical"
+	(property "Value" "TO-220-3_90"
 		(at 0 2.5 0)
 		(layer "F.Fab")
 		(uuid "16ac26a3-a630-4166-ae92-c0a5a344b818")
