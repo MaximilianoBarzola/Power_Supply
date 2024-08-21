@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.762,
-          "height": 1.524,
+          "height": 2.286,
           "width": 1.524
         },
         "silk_line_width": 0.1,
@@ -575,7 +575,7 @@
   "sheets": [
     [
       "c90836b7-ed00-4d5b-83aa-ea8dd954dd4a",
-      "Raíz"
+      "Root"
     ]
   ],
   "text_variables": {}

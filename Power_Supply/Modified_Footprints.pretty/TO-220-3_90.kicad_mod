@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "TO-220-3_Vertical"
+	(property "Footprint" "TO-220-3_90"
 		(at -2.54 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -3220,6 +3220,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 44.45) (xy 226.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc368ad-dfac-49be-bf17-48a14fd770fa")
+	)
+	(wire
+		(pts
 			(xy 213.36 142.24) (xy 213.36 144.78)
 		)
 		(stroke
@@ -3247,6 +3257,16 @@
 			(type default)
 		)
 		(uuid "0ea61f8e-63e1-4779-893b-ab70bb2a219f")
+	)
+	(wire
+		(pts
+			(xy 226.06 36.83) (xy 226.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2f52cf-ee13-443f-b1d9-f5b8d0e22f36")
 	)
 	(wire
 		(pts
@@ -4434,6 +4454,17 @@
 		)
 		(uuid "5fe58842-edfe-4efc-ad9b-dccab75ba496")
 	)
+	(label "Vo"
+		(at 226.06 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88a2e564-4753-4cd4-9620-cdd88f2797af")
+	)
 	(label "SW_OUT"
 		(at 234.95 41.91 0)
 		(fields_autoplaced yes)
@@ -4560,6 +4591,73 @@
 	)
 	(symbol
 		(lib_id "EESTN5:Cable_PAD")
+		(at 247.65 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06995e71-fb12-455e-a4a9-1a8e5193d0fa")
+		(property "Reference" "J3"
+			(at 250.19 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cable_PAD"
+			(at 247.65 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EESTN5:Separador_M3_10mm"
+			(at 247.65 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pad for cable connection"
+			(at 247.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89f207ff-da20-4c5f-a782-855221ae87e4")
+		)
+		(instances
+			(project "Power_Supply"
+				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:Cable_PAD")
 		(at 196.85 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4620,6 +4718,73 @@
 			(project "Power_Supply"
 				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:Cable_PAD")
+		(at 247.65 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a8758a-da94-497e-bf69-a00e63ed1bfc")
+		(property "Reference" "J6"
+			(at 250.19 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cable_PAD"
+			(at 247.65 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EESTN5:Separador_M3_10mm"
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pad for cable connection"
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da69747b-b18d-42e1-9407-f7431ec57f28")
+		)
+		(instances
+			(project "Power_Supply"
+				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4969,6 +5134,73 @@
 			(project "Power_Supply"
 				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:Cable_PAD")
+		(at 247.65 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb8e5c2-36f2-4de9-ab9b-e76757967649")
+		(property "Reference" "J8"
+			(at 250.19 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cable_PAD"
+			(at 247.65 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EESTN5:Separador_M3_10mm"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pad for cable connection"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "553fc3a0-0c91-4d1d-9bfd-472cd5ef109f")
+		)
+		(instances
+			(project "Power_Supply"
+				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5533,6 +5765,73 @@
 			(project "Power_Supply"
 				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:Cable_PAD")
+		(at 247.65 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ea44352-dcc7-4541-bb50-7de0cdd8bd64")
+		(property "Reference" "J7"
+			(at 250.19 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cable_PAD"
+			(at 247.65 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EESTN5:Separador_M3_10mm"
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Pad for cable connection"
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05c9add1-274f-4beb-a336-5ecef4a332c9")
+		)
+		(instances
+			(project "Power_Supply"
+				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6191,7 +6490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EESTN5:Potenciometro"
+		(property "Footprint" "EESTN5:Pin_Header_3"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -6559,7 +6858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EESTN5:Potenciometro"
+		(property "Footprint" "EESTN5:Pin_Header_3"
 			(at 154.94 100.33 0)
 			(effects
 				(font
@@ -6730,6 +7029,75 @@
 			(project "Power_Supply"
 				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:Jumper")
+		(at 226.06 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b89c9caa-e5fc-4d21-afa0-018de3c74d8f")
+		(property "Reference" "JP3"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 227.33 41.91 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Modified_Footprints:JUMPER"
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09299380-7f16-49d2-8fca-75aa4cfa9eb7")
+		)
+		(pin "2"
+			(uuid "591d7686-be02-4b82-bf22-53c31e93be84")
+		)
+		(instances
+			(project "Power_Supply"
+				(path "/c90836b7-ed00-4d5b-83aa-ea8dd954dd4a"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EESTN5:BORNERA2"
+		(property "Footprint" "EESTN5:Pin_Header_2"
 			(at 67.31 59.69 0)
 			(effects
 				(font
