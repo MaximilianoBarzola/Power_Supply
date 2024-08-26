@@ -6643,12 +6643,12 @@
 	(symbol
 		(lib_id "SW:SW_Push")
 		(at 246.38 139.7 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f582287-8bb1-4d20-a424-fa106bfc4f13")
 		(property "Reference" "SW2"
 			(at 246.38 134.62 0)
@@ -6659,7 +6659,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 254 142.494 0)
+			(at 238.76 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6685,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 268.224 144.272 0)
+			(at 224.536 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
